@@ -1,56 +1,30 @@
+Stage 1 – Java Basics
 
-# Simple Calculator (Java)
+This folder contains my very first Java exercises.
+The goal is to get comfortable with:
 
-This is a simple calculator program written in Java.
-It takes two numbers as input and performs the following operations:
+Writing and compiling simple Java classes
 
-* Addition
-* Subtraction
-* Multiplication
-* Division
+Using variables, operators, and basic input/output
 
-The results of all operations are printed to the console.
+Practising control flow (if/else, loops)
 
----
-
+Projects
+File	Description
+Hello.java	Prints “Hello, World!” – first Java program.
+Calculator.java + Main.java	Simple 2-number calculator with add, subtract, multiply, divide methods.
+EvenOddChecker.java	Asks the user for a number and prints whether it’s even or odd.
 How to Run
+javac src/*.java      # compile all
+java Main             # run the calculator
+java EvenOddChecker   # run even/odd program
 
-1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/your-username/java-calculator.git
-   ```
-2. Navigate into the project folder:
+You can drop this text into a file called stage-1/README.md, commit:
 
-   ```bash
-   cd java-calculator/src
-   ```
-3. Compile the program:
-
-   ```bash
-   javac SimpleCalculator.java
-   ```
-4. Run the program:
-
-   ```bash
-   java SimpleCalculator
-   ```
-
----
-
-Example Output
-
-```
-Enter first number: 12
-Enter second number: 4
-
-Addition: 16.0
-Subtraction: 8.0
-Multiplication: 48.0
-Division: 3.0
-```
-
----
+git add stage-1/README.md
+git commit -m "Add README for Stage 1 basics"
+git push
 
  Technologies Used
 
